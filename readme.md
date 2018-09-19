@@ -1,1 +1,1 @@
-Faculty Management
+Faculty Management (Laravel)
