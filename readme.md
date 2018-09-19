@@ -1,1 +1,1 @@
-Facukty Management
+Faculty Management
