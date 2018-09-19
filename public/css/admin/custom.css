@@ -1,0 +1,35 @@
+.treeview-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1em;
+  color: #fff;
+  padding: 15px;
+  padding-left: 45px;
+  margin-top: 1px;
+}
+
+a.text-view {
+  color: aliceblue;
+  font-size: larger;
+}
+
+.single-link {
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 5px 13px 26px 1px #8888d4;
+  transition: .5s;
+  min-height: 150px;
+}
+
+.single-link:hover {
+  box-shadow: 5px 13px 26px 1px #5151b5;
+}
+
+.app-title {
+  margin-top: 5px;
+  background: #b9c2d2;
+}

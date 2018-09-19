@@ -1,0 +1,247 @@
+.header-logo{
+  background: #E4E8EA;
+}
+
+/* Static Styles */
+a {
+    color: #262686;
+}
+.static-side-links {
+    top: 30%;
+    right: 10px;
+    z-index: 1000;
+    position: fixed;
+}
+.static-side-links ul{
+  list-style: none;
+}
+.static-side-links ul li{
+  margin-top: 2px;
+}
+.static-side-links ul li a{
+  width: 40px;
+  transition: .5s;
+}
+.static-side-links ul li a:hover{
+  width: 45px;
+}
+/* End Static Styles */
+
+
+/* Header Part Design */
+.header-top-nav {
+  background: #393996;
+  padding: 1px;
+  padding-top: 5px;
+}
+.header-top-nav ul{
+  list-style: none;
+}
+.header-top-nav ul li{
+  display: inline;
+}
+
+.header-logo{
+
+}
+.header-logo img {
+  max-height: 70px;
+  margin-top: 15px;
+}
+.header-versity-name{
+  font-size: 26px;
+}
+.header-faculty-name {
+    font-size: 35px;
+    font-weight: bold;
+}
+/* End Header Part Design */
+
+
+/* Slider Part Design*/
+img.d-block.w-100 {
+  max-height: 350px;
+}
+.dean-message-area {
+  background: #f7ba7d;
+  color: #32325d;
+  margin-left: -15px;
+  padding-left: 20px;
+}
+.dean-message-area h2 {
+  border-bottom: 2px solid #262686;
+  padding-bottom: 14px;
+  margin-top: 10px;
+}
+/* End Slider */
+
+
+/* News and Events */
+.news-notice {
+  padding-top: 2rem;
+  background: radial-gradient(#fff7f0, #c3c3ff);
+}
+.news-notice h2 {
+  color: #262686;
+}
+.news-single {
+  background: #FFF;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+/* End News and Events */
+
+
+/* Main Links */
+.main-links {
+    padding-top: 2rem;
+    background: radial-gradient(#ececec, #ffffff8c);
+    padding-bottom: 2rem;
+}
+
+.main-links h2 {
+    color: #262686;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.single-link {
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 5px 13px 26px 1px #8888d4;
+  transition: .5s;
+}
+.single-link:hover {
+  box-shadow: 5px 13px 26px 1px #5151b5;
+}
+.single-link img {
+    max-height: 170px;
+}
+/* End Main Links */
+
+
+
+
+/* Footer Top Design */
+.footer-top {
+    background: #464667;
+    color: #FFF;
+}
+.footer-top a {
+    color: #f6dd3a;
+}
+.footer-top a:hover {
+    color: #f6dd3b;
+}
+/* Footer Top Design */
+
+
+/* Footer Bottom Design */
+.footer-bottom {
+    background: #03033c;
+    color: #FFF;
+}
+/* Footer Bottom Design */
+
+
+
+
+
+
+.message_from_dean{
+  margin-top:10px;
+  border:2px solid blue;
+}
+
+.message_from_dean col-md-4{
+  border-right: 3px solid blue;
+
+}
+
+.message_header{
+
+    background-color: #262686;
+    color: #ffffff;
+    padding: 3px;
+
+}
+
+
+
+
+
+
+
+/* Bootstrap Overrides */
+.bg-primary {
+    background-color: #454586!important;
+}
+.navbar-light .navbar-brand {
+  color: rgb(91, 191, 130);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  transition: .6s;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+  background: #1dc151;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  margin-left: 25px;
+  font-weight: 400;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 16rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    list-style: none;
+    background-color: #9fb5a6;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #262686;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .5rem 2rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #d0c7c7;
+    border: 1px solid rgba(0,0,0,.125);
+}
+/* End Bootstrap Overrides */
